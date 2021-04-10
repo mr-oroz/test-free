@@ -730,6 +730,11 @@ body {
 }
 .footer_map{
     padding-top: 10px;
+    max-width: 640px;
+    width: 100%;
+}
+.footer_map iframe{
+    width: 100%;
 }
 .footer_copy{
     background-color: #303030;
@@ -761,4 +766,8 @@ body {
 #modal input[type="submit"]{
     background-color: #ffc222;
     border: none;
+}
+.header_btn-menu{
+    display: none;
+    font-size: 24px;
 }
